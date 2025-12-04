@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: "Support"
+    url: "https://github.com/abhishekkumar177/sih_idearepo/issues"
+    about: "Create an issue if you need help"
