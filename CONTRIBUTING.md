@@ -132,7 +132,21 @@ Please include:
 
 ---
 
-# 🌟 **Thank You**
+# 🌟 **Thank You** Contributors 💖 
+
+A huge heartfelt **thank you** to all the amazing contributors who make EDUPAGE shine!  
+Whether it’s code, design, docs, or testing, every little effort helps us grow together. 🚀✨
+
+<div align="center">
+
+<a href="https://github.com/abhishekkumar177/EDUPAGE/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=abhishekkumar177/EDUPAGE" />
+</a>
+
+</div>
+
+> See the full list of contributors on the [Contributor Graph](https://github.com/abhishekkumar177/EDUPAGE/graphs/contributors) 💫
+
 
 We appreciate your time, effort, and creativity!
 Every contribution — big or small — helps this project grow. ❤️
