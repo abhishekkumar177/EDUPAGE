@@ -1,0 +1,10 @@
+blank_issues_enabled: true
+labels:
+  - name: bug
+    description: Something isn't working
+  - name: enhancement
+    description: New feature or request
+  - name: refactor
+    description: Code improvements
+  - name: feature
+    description: New feature request

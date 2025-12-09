@@ -11,16 +11,16 @@ body:
       placeholder: "Fixed bug in attendance calculation or added a new feature"
       required: true
 
-  - type: checklist
+  - type: tasklist          # ✅ FIXED!
     id: checklist
     attributes:
       label: "Checklist"
       options:
-        - "Code runs without errors"
-        - "Tested locally"
-        - "Updated documentation if needed"
-        - "Followed coding standards"
-        - "Added comments where necessary"
+        - label: "Code runs without errors"
+        - label: "Tested locally"
+        - label: "Updated documentation if needed"
+        - label: "Followed coding standards"
+        - label: "Added comments where necessary"
 
   - type: dropdown
     id: component
