@@ -5,6 +5,21 @@ import sys
 import plotly.graph_objects as go
 from datetime import date
 import json
+from error_handler import register_error_handlers
+# Register error handlers
+def register_error_handlers(server):
+    @server.errorhandler(404)
+    def not_found_error(error):
+        return "404 Error: The requested resource was not found.", 404
+
+    @server.errorhandler(500)
+    def internal_error(error):
+        return "500 Error: An internal server error occurred.", 500 
+# --- Configuration and Helper Functions (Data Processing) ---
+NUM_ASSESSMENTS_PER_SUBJECT = 3
+PASSING_ATTEMPTS_LIMIT = 3
+SUBJECTS = ['Mathematics-I', 'Physics', 'Programming']
+LOGIN_PASSWORD = 'password123'  # Replace with your actual password
 
 # --- Custom Styles & Colors ---
 COLOR_GREEN = '#2E7D32'  # Darker Green

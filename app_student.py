@@ -4,6 +4,16 @@ import pandas as pd
 import plotly.graph_objects as go
 import sys
 from datetime import date
+from error_handler import register_error_handlers
+# Register error handlers
+def register_error_handlers(server):
+    @server.errorhandler(404)
+    def not_found_error(error):
+        return "404 Error: The requested resource was not found.", 404
+
+    @server.errorhandler(500)
+    def internal_error(error):
+        return "500 Error: An internal server error occurred.", 500
 
 # --- Configuration and Helper Functions (Data Processing) ---
 NUM_ASSESSMENTS_PER_SUBJECT = 3
